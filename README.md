@@ -51,8 +51,8 @@ and show the real cost of all your internal dependencies.
 ## Technologies Used
 
 * [Telegram bot API](https://core.telegram.org/bots/api)
-* [Material-UI](https://github.com/callemall/material-ui)
-* [Autoprefixer](https://github.com/postcss/autoprefixer)
+* [OpenCV](https://opencv.org)
+* CNN Model
 * [React Focus Lock](https://github.com/theKashey/react-focus-lock) reduced
   [32% of the size](https://github.com/theKashey/react-focus-lock/pull/48).
 * [Logux](https://github.com/logux) reduced
