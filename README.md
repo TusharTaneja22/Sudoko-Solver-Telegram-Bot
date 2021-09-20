@@ -1,13 +1,10 @@
-# Sudoku Solver - Telegram Bot [![Cult Of Martians][cult-img]][cult]
+# Sudoku Solver - Telegram Bot
 
 <img src="https://ai.github.io/size-limit/logo.svg" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
 
 This is a telegram bot which solves the Sudoku problem. All we need to do is to capture the image of Sudoku and send it to this bot. The bot will respond in the form of image by overlaying the solution on the input image.
 
-Size Limit is a performance budget tool for JavaScript. It checks every commit
-on CI, calculates the real cost of your JS for end-users and throws an error
-if the cost exceeds the limit.
 
 * **ES modules** and **tree-shaking** support.
 * Add Size Limit to **Travis CI**, **Circle CI**, **GitHub Actions**
