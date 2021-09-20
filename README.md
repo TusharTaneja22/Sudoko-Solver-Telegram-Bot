@@ -1,8 +1,5 @@
 # Sudoku Solver - Telegram Bot
 
-<img src="https://ai.github.io/size-limit/logo.svg" align="right"
-     alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
-
 This is a telegram bot which solves the Sudoku problem. All we need to do is to capture the image of Sudoku and send it to this bot. The bot will respond in the form of image by overlaying the solution on the input image.
 
 ## Technologies Used
