@@ -52,18 +52,13 @@ and show the real cost of all your internal dependencies.
 
 * [Telegram bot API](https://core.telegram.org/bots/api)
 * [OpenCV](https://opencv.org)
+* [Tensorflow](https://www.tensorflow.org)
 * CNN Model
-* [React Focus Lock](https://github.com/theKashey/react-focus-lock) reduced
-  [32% of the size](https://github.com/theKashey/react-focus-lock/pull/48).
-* [Logux](https://github.com/logux) reduced
-  [90% of the size](https://github.com/logux/logux-client/commit/62b258e20e1818b23ae39b9c4cd49e2495781e91).
-
 
 ## How It Works
 
-1. Size Limit contains a CLI tool, 3 plugins (`file`, `webpack`, `time`)
-   and 3 plugin presets for popular use cases (`app`, `big-lib`, `small-lib`).
-   A CLI tool finds plugins in `package.json` and loads the config.
+1. After receiving the image of sudoku from the user, the Sudoku is located in the
+   image by finding the biggest square with the help of contuors. 
 2. If you use the `webpack` plugin, Size Limit will bundle your JS files into
    a single file. It is important to track dependencies and webpack polyfills.
    It is also useful for small libraries with many small files and without
