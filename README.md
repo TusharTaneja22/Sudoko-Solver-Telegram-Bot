@@ -21,12 +21,22 @@ This is a telegram bot which solves the Sudoku problem. All we need to do is to 
 4. Finally sudoku is converted to a 2-D array form and algorithm solves the sudoku problem.
 5. The digits required to fill in the empty boxes are written on the image and is sent to the user.
 
-Demo1.jpg
+Sudoku Solver: Telegram Bot
+<p align="center">
+  <img src="./bot.jpg" alt="Demo1" width="200">
+</p>
 
+
+Uploading Sudoku Problem Image
 <p align="center">
   <img src="./Demo1.jpg" alt="Demo1" width="200">
 </p>
 
+
+Solution Image
+<p align="center">
+  <img src="./Demo2.jpg" alt="Demo1" width="200">
+</p>
 With **[GitHub action]** Size Limit will post bundle size changes as a comment
 in pull request discussion.
 
