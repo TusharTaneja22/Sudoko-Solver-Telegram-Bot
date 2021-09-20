@@ -58,21 +58,11 @@ and show the real cost of all your internal dependencies.
 ## How It Works
 
 1. After receiving the image of sudoku from the user, the Sudoku is located in the
-   image by finding the biggest square with the help of contuors. 
-2. If you use the `webpack` plugin, Size Limit will bundle your JS files into
-   a single file. It is important to track dependencies and webpack polyfills.
-   It is also useful for small libraries with many small files and without
-   a bundler.
-3. The `webpack` plugin creates an empty webpack project, adds your library
-   and looks for the bundle size difference.
-4. The `time` plugin compares the current machine performance with that of
-   a low-priced Android devices to calculate the CPU throttling rate.
-5. Then the `time` plugin runs headless Chrome (or desktop Chrome if it’s
-   available) to track the time a browser takes to compile and execute your JS.
-   Note that these measurements depend on available resources and might
-   be unstable. [See here](https://github.com/mbalabash/estimo/issues/5)
-   for more details.
-
+   image by finding the biggest square with the help of contuors and crop that part from the image. 
+2. Next task is to find the atomic box in the sudoku. Same contour logic is used again to get all the boxes containing digits and empty boxes. 
+3. Then the digit in each non-empty cell/box of the sudoku is predicted by using LeNet-5 model trained to predict the digits. 
+4. Finally sudoku is converted to a 2-D array form and algorithm solves the sudoku problem.
+5. The digits required to fill in the empty boxes are written on the image and is sent to the user.
 
 ## Usage
 
