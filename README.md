@@ -24,7 +24,7 @@ This is a telegram bot which solves the Sudoku problem. All we need to do is to 
 Demo1.jpg
 
 <p align="center">
-  <img src="./Demo1.jpg" alt="Demo1" width="738">
+  <img src="./Demo1.jpg" alt="Demo1" width="200">
 </p>
 
 With **[GitHub action]** Size Limit will post bundle size changes as a comment
