@@ -21,19 +21,10 @@ This is a telegram bot which solves the Sudoku problem. All we need to do is to 
 4. Finally sudoku is converted to a 2-D array form and algorithm solves the sudoku problem.
 5. The digits required to fill in the empty boxes are written on the image and is sent to the user.
 
-* **ES modules** and **tree-shaking** support.
-* Add Size Limit to **Travis CI**, **Circle CI**, **GitHub Actions**
-  or another CI system to know if a pull request adds a massive dependency.
-* **Modular** to fit different use cases: big JS applications
-  that use their own bundler or small npm libraries with many files.
-* Can calculate **the time** it would take a browser
-  to download and **execute** your JS. Time is a much more accurate
-  and understandable metric compared to the size in bytes.
-* Calculations include **all dependencies and polyfills**
-  used in your JS.
+Demo1.jpg
 
 <p align="center">
-  <img src="./img/example.png" alt="Size Limit CLI" width="738">
+  <img src="./Demo1.jpg" alt="Demo1" width="738">
 </p>
 
 With **[GitHub action]** Size Limit will post bundle size changes as a comment
