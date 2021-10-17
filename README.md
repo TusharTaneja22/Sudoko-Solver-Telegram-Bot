@@ -13,7 +13,7 @@ This is a telegram bot which solves the Sudoku problem. All we need to do is to 
 
 1. After receiving the image of sudoku from the user, the Sudoku is located in the
    image by finding the biggest square with the help of contuors and crop that part from the image. 
-2. Next task is to find the atomic box in the sudoku. Same contour logic is used again to get all the boxes containing digits and empty boxes. 
+2. Next task is to find the atomic box in the sudoku.Same contour logic is used again to get all the boxes containing digits and empty boxes. 
 3. Then the digit in each non-empty cell/box of the sudoku is predicted by using LeNet-5 model trained to predict the digits. 
 4. Finally sudoku is converted to a 2-D array form and algorithm solves the sudoku problem.
 5. The digits required to fill in the empty boxes are written on the image and is sent to the user.
